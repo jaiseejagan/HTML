@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="es"/>
+
+    <head>
+        <meta name="autor" content="Jagan"/>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+    
+    <h1>FORMULARIO DE DATOS</h1>
+
+    <h3>Ingrese sus datos para poder aplicarse al programa</h3>
+
+    <form>
+
+        <p>
+            <label for="nom">Nombre:</label>
+            <input name="nombre" id="nom" type="text" value="Jagan"/>
+        </p>
+
+        <p>
+            <label for="cor">Correo electrónico:</label>
+            <input name="correo" id="cor" type="email" value="jaganjaisee2006@gmail.com"/>
+        </p>
+        
+
+        <p>
+            <label for="url">URL:</label>
+            <input name="enlace" id="url" type="url" placeholder="Ingrese la URL de tu página"/>
+        </p>
+
+        <p>
+            <label for="fec">Fecha:</label>
+            <input name="fecha" id="fec" type="date"/>
+        </p>
+
+        <p>Genero</p>
+
+        <p>
+            <input name="genero" id="hombre" value="hom" type="radio"/>
+            <label for="hombre">Masculino</label>
+        </p>
+
+        <p>
+            <input name="genero" id="mujer" value="muj" type="radio"/>
+            <label for="mujer">Femenino</label>
+        </p>
+
+        <p>Número de hijos </p>
+
+        <p>
+            <input name="hijos" id="ninguno" value="ning" type="radio"/>
+            <label for="ninguno"> Ninguno</label>
+            <input name="hijos" id=uno"" value="un" type="radio"/>
+            <label for="uno">uno</label>
+            <input name="genero" id="dos" value="do" type="radio"/>
+            <label for="dos">dos</label>
+            <input name="genero" id="masde" value="mas" type="radio"/>
+            <label for="masde">Más de 2</label>
+        </p>
+        
+        <p>
+            <input name="numero" id="num" type=number min="-10" max="10"/>
+            <label for="num">Número</label>
+        </p>
+
+        <p>
+            <label for="telf">Teléfono</label>
+            <input name="telefono" id="telf" type=tel pattern="[0-9]{9}"/>
+        </p>
+
+        <p>
+            <label for="busq">Término de búsqueda</label>
+            <input name="busqueda" id="busq" type="text" value="10753044"/>
+        </p>
+
+        <p>
+            <label for="col">Color favorito</label>
+            <select name="color" id="col">
+                <option name="negro" value="black">⬛ Negro</option>
+                <option name="rojo" value="red">🟥 Rojo</option>
+                <option name="blanco" value="white">⬜ Blanco</option>
+                <option name="verde" value="green">🟩 Verde</option>
+            </select>
+        </p>
+
+        <input type="submit" value="Enviar datos">
+
+    </form>
+
+</body>
